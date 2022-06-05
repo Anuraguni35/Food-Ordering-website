@@ -1,0 +1,77 @@
+/* Navigation styling */
+#navbar{
+    align-items: center;
+    width: 1251px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 150%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+/* home styling */
+#home{
+    flex-direction: column;
+
+}
+#home::before {
+    margin-top: 282px;
+    margin-left: 764px;
+    width: 1280px; 
+    height: 814px;
+    background-image: url("img/background\ img.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h-prime{
+    width: 800px;
+    margin-left: 811px;
+}
+#home>p{
+    width: 800px;
+    text-align: center;
+    margin-left: 811px;
+}
+#home>input {
+margin-left: 815px;
+}
+#home>button{
+    margin-left: 815px;  
+}
+/* Our services styling */
+
+article{
+    width: 1251px;
+    margin-top: 371px;
+}
+.box{
+    width: 900px;
+}
+/* collection styling */
+#Collection{
+    width: 1261px ;
+}
+/* Contect details styling */
+#Whats>h3{
+    width: 795px;
+    margin-top: -13px;
+    margin-left: -81px;
+}
+#Whats>h4{
+    margin-left: -81px;
+    width: 664px;
+    font-size: 2rem;
+}
+#Whats>p{
+    margin-top: 2px;
+    margin-left: -81px;
+    width: 608px;
+}
+#About>p{
+   padding-left: 45px;
+   text-align:left;
+
+}

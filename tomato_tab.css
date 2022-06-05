@@ -1,0 +1,64 @@
+/* Navigation styling */
+#navbar::before{
+    width: 863px;
+
+}
+#navbar{
+    width: 863px;
+}
+
+/* Home Styling */
+#home::before{
+    width: 1150px;
+    /* margin-left: 342px; */
+    /* margin-top: 201px; */
+    background-image: url('img/background\ img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home>h1{
+    width: 806px;
+    margin-left: 346px;
+}
+#home>p{
+    width: 806px;
+    margin-left: 346px;
+}
+#home>input{
+    
+    margin-left: 346px;
+}
+#home>button{
+    
+    margin-left: 346px;
+}
+/* Services styling */
+
+article{
+    width: 863px;
+}
+
+/* collection styling */
+
+#Collection{
+    width:863px;
+}
+.collection_box{
+  margin: 31px ;
+  padding: 17px;
+}
+
+/* contect details styling */
+    #Contact{
+        text-align: center;
+        margin-left: -30px;
+    }
+    #Whats{
+        text-align: center;
+        margin-left: -30px;
+    }
+    #Whats>h3{
+       flex-wrap: wrap;
+       margin-left: -50;
+    }

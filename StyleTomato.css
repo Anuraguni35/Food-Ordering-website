@@ -1,0 +1,429 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation bar styling */
+#navbar {
+    display: flex;
+    align-items: center;
+    position:sticky;
+    flex-wrap: wrap;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+}
+
+#logo {
+    margin: 10px 32px;
+}
+
+#logo img {
+    margin: 3px 6px;
+    border-radius: 100px;
+    height: 80px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 3px 22px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+
+    color: black;
+    background-color: aliceblue;
+
+}
+
+#navbar {
+    height: 90px;
+    position: sticky;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Home styling */
+
+#home {
+    display: flex;
+   flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+
+}
+
+#home::before {
+    content: "";
+    width: auto;
+    background-image: url("img/background\ img.jpg");
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -2;
+}
+
+#home h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    font-size: 1.rem;
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.h-prime {
+    font-size: 5rem;
+    margin-top: 265px;
+}
+
+section button {
+    font-weight: bold;
+    color: white;
+    padding: 10px 60px;
+    margin-top: 25px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 24px;
+    background-color: #ed306cb5;
+    border-color: #ffffff30;
+    border-radius: 10px;
+}
+
+section button:hover {
+    background-color: #ce436f4d;
+    cursor: pointer;
+}
+input[type=text] {
+    margin-top: 30px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('img/Serchicon.png');
+    background-position: 15px 15px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;}
+/* Services section */
+article h1 {
+    text-align: center;
+    
+}
+
+article {
+    margin-top: 200px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(180deg,rgba(51 0 255 / 36%), rgba(255 0 49 / 25%));
+}
+
+#Services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.boximg {
+    width: 560px;
+    border-radius: 20px;
+    position: center;
+}
+
+.box {
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 564px;
+    margin: 40px 49px;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #ede8e191;
+    transition: width 2s,height 2s,transform 2s;
+}
+
+.box:hover {
+    box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.2), 5px 10px 20px 0 rgba(0, 0, 0, 0.19);
+    width:680px ;  
+}
+
+.h-primery {
+    font-size: 4.5rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.h-secondry {
+    font-size: 2rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+/* collection Section */
+
+.Collection_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.collection_box {
+    width: 292px;
+    height: 346px;
+    border-radius: 29px;
+    margin: 50px 60px;
+    padding: 20px 20px;
+    color: aliceblue;
+    z-index: 2;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.5rem;
+    transition: width 2s, height 4s,transform 2s;
+}
+.collection_box:hover{
+    transform: scale(1.5);
+}
+#cricket {
+    background-image: url('img/cricket.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 336px 403px;
+}
+
+#newopen {
+    background-image: url('img/we\ are\ open.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 336px 403px;
+}
+
+#location {
+    background-image: url('img/locations.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 336px 403px;
+}
+
+#friendly {
+    background-image: url('img/Workspace.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 336px 403px;
+}
+
+#Collection {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    /* background-image: url('img/coolectionback.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    /* background-color: rgba(234, 218, 218, 0.447); */
+}
+
+.h-third {
+    font-size: 1.3rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.collection_box:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.2), 5px 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#Explore_sec {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+
+
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 90%;
+    font-size: 1.3rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#Contact {
+    background-image: url('img/breakfast-2649620.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Contect_content {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#robot{
+    margin-left: 109px;
+    width: 18px;
+    font-size: 50px;
+}
+#submit{
+    margin-left: 120px;
+    padding-left: 288px;
+    background-color: #f06692cb;
+    color: white;
+    font-size: 30px;
+}
+#submit:hover{
+    background-color: #9c385870;
+}
+#h-forth{
+    margin-top: 23px;
+    margin-left: 154px;
+    font-size: 68px;
+}
+
+
+#Whats {
+    background-image: url('img/Whatsnewback.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 220px;
+    
+}
+#Whats>h3{
+    margin-top: 30px;
+    font-size: 4rem;
+    color: rgb(165, 32, 32);
+}
+#Whats>h4{
+    margin-top: 10px;
+    color: green;
+    font-size: 2.5rem;
+}
+#Whats>p{
+    margin-top: 40px;
+    color: #555;
+    width: 1000px;
+    font-size: 1.5rem;
+}
+#About {
+    
+    background-image: url('img/aboutusback.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#About>h3 {
+    font-size: 4rem;
+    text-align: end;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#About>p {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 700px;
+    margin-left: 370px;
+}
+#Opportunities {
+   background-image: url('img/carreerback.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.Opportunities_box_c{
+    display: flex;
+}
+.Opportunities_box{
+    display: flex;
+    flex-direction: column;
+}
+#Opportunities>h3{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Opportunities>p{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 1450px;
+    
+}
+#Opportunities>h4{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Opportunities_box{
+    margin: 20px 30px;
+    padding: 10px 50px;
+    text-align: center;
+}
