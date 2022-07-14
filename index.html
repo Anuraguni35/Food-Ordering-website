@@ -85,10 +85,10 @@
         </div>
     </section>
     <article id="Explore_sec">
-        <button class="tablink" onclick="openPage('Contact', this, )"id="defaultOpen">Contact Us</button>
-        <button class="tablink" onclick="openPage('Whats', this, )" >Whats New</button>
-        <button class="tablink" onclick="openPage('About', this, )">About Us</button>
-        <button class="tablink" onclick="openPage('Opportunities', this, )">Career</button>
+        <button class="tablink" onclick="openPage('Contact', this )"id="defaultOpen">Contact Us</button>
+        <button class="tablink" onclick="openPage('Whats', this )" >Whats New</button>
+        <button class="tablink" onclick="openPage('About', this )">About Us</button>
+        <button class="tablink" onclick="openPage('Opportunities', this )">Career</button>
 
         <div id="Contact" class="tabcontent">
             <h3 id="h-forth">Contact Us</h3>
@@ -145,7 +145,7 @@
                 for (i = 0; i < tabcontent.length; i++) {
                     tabcontent[i].style.display = "none";
                 }
-                tablinks = document.getElementsByClassName("tablink");
+                tablinks = document.getElementsByClassName("tablink"); 
                 for (i = 0; i < tablinks.length; i++) {
                     tablinks[i].style.backgroundColor = "";
                 }
